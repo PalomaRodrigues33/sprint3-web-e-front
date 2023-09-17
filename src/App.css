@@ -130,7 +130,7 @@ header {
 header h1 {
     color: rgba(255, 255, 255, 0.8);
     flex-grow: 1;
-    text-align: center
+    margin: 20px
 }
 
 nav {
@@ -239,7 +239,7 @@ section {
 
     header,
     body {
-        position: fixed
+        position: static
     }
 
     section {

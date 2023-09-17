@@ -3,10 +3,10 @@ import Input from './Input';
 import { MapContainer, MapFrame } from './EstilosMapa';
 
 export default function ConteudoColeta() {
-    // State to manage the CEP value
+
     const [cep, setCep] = useState('');
 
-    // Load the CEP value from local storage when the component mounts
+
     useEffect(() => {
         const storedCep = localStorage.getItem('cep');
         if (storedCep) {
@@ -14,7 +14,7 @@ export default function ConteudoColeta() {
         }
     }, []);
 
-    // Update local storage whenever the CEP value changes
+    
     useEffect(() => {
         localStorage.setItem('cep', cep);
     }, [cep]);

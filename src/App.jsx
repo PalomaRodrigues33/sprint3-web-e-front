@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import './App.css'
+import HamburgerMenu from './assets/components/HamburgerMenu'
 import MenuNav from './assets/components/MenuNav'
 import Cabecalho from './assets/components/Cabecalho'
 import ConteudoColeta from './assets/components/ConteudoColeta'
@@ -20,6 +21,7 @@ function App() {
             <Cabecalho />
 
             <BrowserRouter>
+                <HamburgerMenu />
                 <MenuNav />
                 <Routes>
                     <Route path="/" element={<ConteudoIndex />} />
