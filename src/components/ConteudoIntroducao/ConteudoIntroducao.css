@@ -1,0 +1,9 @@
+.introducao {
+  background-image: url("../../img/fundo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  text-align: center;
+}/*# sourceMappingURL=ConteudoIntroducao.css.map */

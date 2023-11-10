@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding: 0;
+    outline: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    main {
+        flex: 1;
+    }
+}
+
+section {
+    padding: 4.5em 0;
+    font-weight: 600;
+    color: gray;
+    text-align: justify;
+
+    h3 {
+        text-align: center;
+        font-weight: bold;
+        color: green;
+        margin-bottom: 35px;
+
+    }
+}
+
+nav {
+    box-shadow: 10px 5px 20px 10px rgba(21, 68, 66, 0.144);
+}
+
+.sobre{
+
+    .texto{
+        padding-top: 100px;
+        
+        
+    }
+    
+    img{
+        will-change: filter;
+        transition: filter 300ms;
+        
+        &:hover {
+            filter: drop-shadow(0 0 2em #61dafbaa);
+            }
+            @keyframes image5-spin {
+                from {
+                    transform: rotate(0deg);
+                }
+                to {
+                    transform: rotate(360deg);
+                }
+            }
+        
+            @media (prefers-reduced-motion: no-preference) {
+                & {
+                    animation: image5-spin infinite 20s linear;
+                }
+            }
+    }
+}
+
+.funcionamento {
+
+    .texto {
+        padding-top: 70px;
+
+
+    }
+
+    img {
+        will-change: filter;
+        transition: filter 300ms;
+
+        &:hover {
+            filter: drop-shadow(0 0 2em #85fb61aa);
+        }
+
+    }
+}
+
+.impactos{
+    text-align:center;
+}

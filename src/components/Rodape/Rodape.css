@@ -1,0 +1,17 @@
+footer {
+  width: 100%;
+  background-color: #2e473d;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+footer p {
+  display: inline-block;
+  font-size: 16px;
+}
+@media screen and (max-height: 100%) {
+  footer {
+    position: fixed;
+    bottom: 0;
+  }
+}/*# sourceMappingURL=Rodape.css.map */
