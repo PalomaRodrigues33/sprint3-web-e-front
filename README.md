@@ -1,8 +1,12 @@
-# React + Vite
+Grupo:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Paloma Mirela dos Santos Rodrigues - RM551321 - 1ESPF
+Gabriel Genaro Dalaqua - RM551986 - 1ESPF
+Ricardo Akira - RM551447 - 1ESPF
+Felipe Gomes - RM551464 - 1ESPF
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Para realizar o login:
+
+Email: admin@fiap.com.br
+Senha: senha123
