@@ -1,0 +1,23 @@
+.sobre .texto {
+  padding-top: 100px;
+}
+.sobre img {
+  will-change: filter;
+  transition: filter 300ms;
+}
+.sobre img:hover {
+  filter: drop-shadow(0 0 2em rgba(97, 218, 251, 0.6666666667));
+}
+@keyframes image5-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .sobre img {
+    animation: image5-spin infinite 20s linear;
+  }
+}/*# sourceMappingURL=ConteudoSobre.css.map */

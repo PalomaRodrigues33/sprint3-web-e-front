@@ -35,41 +35,6 @@ nav {
   box-shadow: 10px 5px 20px 10px rgba(21, 68, 66, 0.144);
 }
 
-.sobre .texto {
-  padding-top: 100px;
-}
-.sobre img {
-  will-change: filter;
-  transition: filter 300ms;
-}
-.sobre img:hover {
-  filter: drop-shadow(0 0 2em rgba(97, 218, 251, 0.6666666667));
-}
-@keyframes image5-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-@media (prefers-reduced-motion: no-preference) {
-  .sobre img {
-    animation: image5-spin infinite 20s linear;
-  }
-}
-
-.funcionamento .texto {
-  padding-top: 70px;
-}
-.funcionamento img {
-  will-change: filter;
-  transition: filter 300ms;
-}
-.funcionamento img:hover {
-  filter: drop-shadow(0 0 2em rgba(133, 251, 97, 0.6666666667));
-}
-
 .impactos {
   text-align: center;
 }/*# sourceMappingURL=global.css.map */

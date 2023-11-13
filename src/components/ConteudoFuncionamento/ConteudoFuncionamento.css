@@ -1,0 +1,10 @@
+.funcionamento .texto {
+  padding-top: 70px;
+}
+.funcionamento img {
+  will-change: filter;
+  transition: filter 300ms;
+}
+.funcionamento img:hover {
+  filter: drop-shadow(0 0 2em rgba(133, 251, 97, 0.6666666667));
+}/*# sourceMappingURL=ConteudoFuncionamento.css.map */
